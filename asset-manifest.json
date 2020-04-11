@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/franvillaltasilva.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/franvillaltasilva.github.io/static/js/main.e65f6ab1.chunk.js",
+    "main.js.map": "/franvillaltasilva.github.io/static/js/main.e65f6ab1.chunk.js.map",
+    "runtime-main.js": "/franvillaltasilva.github.io/static/js/runtime-main.2f0b9980.js",
+    "runtime-main.js.map": "/franvillaltasilva.github.io/static/js/runtime-main.2f0b9980.js.map",
+    "static/js/2.d90ae76b.chunk.js": "/franvillaltasilva.github.io/static/js/2.d90ae76b.chunk.js",
+    "static/js/2.d90ae76b.chunk.js.map": "/franvillaltasilva.github.io/static/js/2.d90ae76b.chunk.js.map",
+    "index.html": "/franvillaltasilva.github.io/index.html",
+    "precache-manifest.607a1afc2a1ee8a914bc0f8d50608fc1.js": "/franvillaltasilva.github.io/precache-manifest.607a1afc2a1ee8a914bc0f8d50608fc1.js",
+    "service-worker.js": "/franvillaltasilva.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/franvillaltasilva.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d90ae76b.chunk.js.LICENSE.txt": "/franvillaltasilva.github.io/static/js/2.d90ae76b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/franvillaltasilva.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f0b9980.js",
+    "static/js/2.d90ae76b.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e65f6ab1.chunk.js"
+  ]
+}
