@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Lottie from 'react-lottie'
-import workInProgress from '../lotties/work-in-progress.json'
 
 class Animation extends Component {
-
 
   render(){
 
