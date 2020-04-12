@@ -1,16 +1,22 @@
-button {
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 124px;
     height: 56px;
     border: 0;
     border-radius: 6px;
-    background: linear-gradient(145deg, #24282f, #2b2f38);
+    background-color: #282c34;
+    color: rgb(93, 205, 207);
     box-shadow:  6px 6px 11px #22252c, -6px -6px 11px #2e333c;
-    
-
-    a {
-        color: rgb(93, 205, 207);
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     }
+
+a:active {
+    background: linear-gradient(145deg, #24282f, #2b2f38);
+
 }
