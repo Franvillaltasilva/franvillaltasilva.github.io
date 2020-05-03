@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  //background-color: #282c34;
+  background-color: #e2e2e2;
+  color: rgb(43, 106, 118);
+  align-items: center;
+
+  p {
+    flex: 2;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+.sections {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+
+  p {
+    min-width: 114px;
+  }
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .sections {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
