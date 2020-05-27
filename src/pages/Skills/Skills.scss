@@ -1,24 +1,28 @@
-.home-container {
+.skills-container {
   display: flex;
+  flex-direction: column;
   height: calc(100vh - 54px);
 
   * {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .title {
+    flex: 0.2;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: rgb(43, 106, 118);
-    text-decoration: none;
-    font-size: 40px;
-  }
-  .resume-container {
     background-color: rgb(43, 106, 118);
     color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0;
+  }
+  .skills-list {
+    flex: 1;
+    color: white;
+    color: rgb(43, 106, 118);
     padding: 24px;
     p {
       font-family: "Montserrat", sans-serif;

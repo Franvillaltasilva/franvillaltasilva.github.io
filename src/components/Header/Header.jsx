@@ -1,6 +1,7 @@
 import "./Header.scss";
 import React from "react";
 import Menu from "react-ionicons/lib/IosMenu";
+import { Link } from "react-router-dom";
 
 const Header = ({}) => {
   const showMenu = () => {
@@ -9,13 +10,23 @@ const Header = ({}) => {
 
   return (
     <nav>
-      <p>f villalta</p>
+      <Link className="link" to="/">
+        fran villalta
+      </Link>
 
       <div className="sections">
-        <p>skills</p>
-        <p>projects</p>
-        <p>about me</p>
-        <p>contact</p>
+        <Link className="link" to="/skills">
+          skills
+        </Link>
+        <Link className="link" to="/projects">
+          projects
+        </Link>
+        <Link className="link" to="/about">
+          about
+        </Link>
+        <Link className="link" to="/contact">
+          contact
+        </Link>
       </div>
       <Menu
         className="menu"

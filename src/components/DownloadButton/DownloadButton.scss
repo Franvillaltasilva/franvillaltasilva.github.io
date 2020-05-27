@@ -1,4 +1,4 @@
-a {
+a.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,6 @@ a {
   border-radius: 6px;
   // background-color: #282c34;
   //color: rgb(93, 205, 207);
-  background-color: #e2e2e2;
   color: #2b6a76;
   border: 1px solid #2b6a76;
   //box-shadow: 6px 6px 11px #22252c, -6px -6px 11px #2e333c;
@@ -20,7 +19,7 @@ a {
   transition: all 0.2s linear;
 }
 
-a:active {
+a.button:active {
   //background: linear-gradient(145deg, #24282f, #2b2f38);
   background-color: #2b6a76;
   color: #e2e2e2;

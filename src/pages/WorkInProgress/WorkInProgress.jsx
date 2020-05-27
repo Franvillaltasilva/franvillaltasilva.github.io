@@ -4,7 +4,6 @@ import React from "react";
 // components
 import Animation from "../../components/Animation/Animation";
 import DownloadButton from "../../components/DownloadButton/DownloadButton";
-import Header from "../../components/Header/Header";
 
 //assets
 import workInProgress from "../../assets/lotties/work-in-progress.json";
@@ -16,7 +15,6 @@ const WorkInProgress = () => {
 
   return (
     <>
-      <Header />
       <section>
         <div className="work-in-progress-container">
           <Animation src={workInProgress} />
